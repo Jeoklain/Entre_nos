@@ -153,8 +153,8 @@ function openPhotoModal(photo) {
     modalDate.textContent = photo.date ? `📅 ${photo.date}` : '';
 
     // carregar frase salva e permitir edição inline
-    const saved = localStorage.getItem(photoPhrasesKey(photo.id)) || photo.description || '';
-    modalDescription.textContent = saved || 'Clique aqui para adicionar uma frase...';
+    const saved = localStorage.getItem(photoPhrasesKey(photo.id)) || photo.description || 'Clique aqui para adicionar uma frase...';
+    modalDescription.textContent = saved;
     modalDescription.contentEditable = true;
     modalDescription.dataset.photoId = photo.id;
     modalDescription.focus();
