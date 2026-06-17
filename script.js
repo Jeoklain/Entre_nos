@@ -20,10 +20,10 @@ galleryPhotos.push(
 // ===== NOSSAS MEMÓRIAS (fotos 5 a 10) =====
 const memoryPhotos = [
     { id: 5, image: "img/photo-05.jpeg", title: "PRIMEIRA VEZ", date: "", description: "Uma das primeiras vezes em que você veio aqui em casa ficou muito marcada para mim. Eu lembro que estava bastante nervosa e não sabia muito bem o que fazer ou falar. Mas, com o seu jeito, você fez tudo parecer mais leve e natural. Foi naquele momento que as coisas começaram a se tornar reais para mim. Em meio aos medos e às incertezas que eu tinha, comecei a enxergar um futuro ao seu lado. E acho que o que mais me tranquilizava era saber que, no meio de tudo isso, eu tinha você." },
-    { id: 6, image: "img/photo-06.jpeg", title: "SENAI", date: "", description: "Eu odiava ir para o SENAI. Te ver e não poder te ter por perto do jeito que eu queria, ouvir você falar das suas coisas e te ver ao lado das meninas, rindo e se divertindo, mexia muito comigo e me deixava confusa sobre tudo o que eu sentia. Com o tempo, porém, isso foi ficando mais leve. E depois que voltamos, os dias de SENAI passaram a ser os que eu mais esperava. Eu ficava ansiosa para te ver, conversar com você e compartilhar aqueles pequenos momentos que faziam toda a diferença. Enfrentar o transporte público ao seu lado, dormir no seu ombro durante o caminho e simplesmente estar com você se tornaram alguns dos meus momentos favoritos. Eram essas coisas simples que faziam eu esquecer o cansaço e tudo o que tinha acontecido nos outros dias." },
+    { id: 6, image: "img/photo-06.jpeg", title: "ARRAIA", date: "", description: "Pela primeira vez, você veio a uma festa de família aqui em casa. Talvez nós duas ainda não entendêssemos muito bem, mas aquele foi um grande passo para nós como casal. Esse dia foi muito divertido, e ver como minha família te acolheu aqueceu o meu coração. Em meio a tantos desafios que ainda enfrentamos, cada pequeno passo que damos tem um significado enorme para mim. Ter você ao meu lado, disposta a lutar pelo nosso amor, me faz perceber o quanto sou sortuda por ter encontrado alguém como você. Obrigada por toda a sua paciência, cumplicidade e por permanecer firme ao meu lado, mesmo diante das dificuldades que vivenciamos diariamente. Você faz com que cada desafio pareça mais leve e cada conquista muito mais especial." },
     { id: 7, image: "img/photo-07.jpeg", title: "NIGHT", date: "", description: "Essa é a primeira noite que temos registrada, e pelo meu olhar dá para perceber o quanto eu estava feliz. Pela primeira vez, eu não sentia medo de te acordar com a minha respiração, nem passava a noite inteira nervosa só por você estar na mesma cama que eu. Desde então, passei a esperar ansiosamente pela semana para ter mais algumas noites ao seu lado. Você me aquece, eu roubo a sua coberta, e esses pequenos momentos se tornaram alguns dos meus favoritos. As melhores noites são aquelas que passo com você. Ao seu lado me sinto segura, confortável e em paz. Você se tornou o meu lar, o lugar onde consigo descansar sem preocupações, sabendo que estou abraçada em você e cercada pelo seu carinho." },
-    { id: 8, image: "img/photo-08.jpeg", title: "TREININ", date: "", description: "Pela primeira vez treinamos juntas e, para ser sincera, conversamos mais do que treinamos. Mas passar esse tempo ao seu lado, fazendo algo que nós duas gostamos, tornou aquele momento muito especial para mim. Senti uma sensação de dever cumprido, comigo mesma, com você e com nós duas. Por mais que seja apenas a musculação, ela representa muito para a forma como nos enxergamos e para os objetivos que buscamos alcançar. Ter você ao meu lado nesse processo, me apoiando e incentivando porque sabe o quanto isso é importante para mim, fez toda a diferença. Foi um momento simples, mas muito significativo, e que guardo com muito carinho. Espero que possamos viver muitos outros momentos assim, sempre apoiando uma à outra em nossos sonhos e objetivos, sejam eles compartilhados ou individuais. Afinal, saber que tenho você torcendo por mim faz qualquer desafio parecer mais leve." },
-    { id: 9, image: "img/photo-09.jpeg", title: "ARRAIA", date: "", description: "Pela primeira vez, você veio a uma festa de família aqui em casa. Talvez nós duas ainda não entendêssemos muito bem, mas aquele foi um grande passo para nós como casal. Esse dia foi muito divertido, e ver como minha família te acolheu aqueceu o meu coração. Em meio a tantos desafios que ainda enfrentamos, cada pequeno passo que damos tem um significado enorme para mim. Ter você ao meu lado, disposta a lutar pelo nosso amor, me faz perceber o quanto sou sortuda por ter encontrado alguém como você. Obrigada por toda a sua paciência, cumplicidade e por permanecer firme ao meu lado, mesmo diante das dificuldades que vivenciamos diariamente. Você faz com que cada desafio pareça mais leve e cada conquista muito mais especial." },
+    { id: 8, image: "img/photo-08.jpeg", title: "SENAI", date: "", description: "Eu odiava ir para o SENAI. Te ver e não poder te ter por perto do jeito que eu queria, ouvir você falar das suas coisas e te ver ao lado das meninas, rindo e se divertindo, mexia muito comigo e me deixava confusa sobre tudo o que eu sentia. Com o tempo, porém, isso foi ficando mais leve. E depois que voltamos, os dias de SENAI passaram a ser os que eu mais esperava. Eu ficava ansiosa para te ver, conversar com você e compartilhar aqueles pequenos momentos que faziam toda a diferença. Enfrentar o transporte público ao seu lado, dormir no seu ombro durante o caminho e simplesmente estar com você se tornaram alguns dos meus momentos favoritos. Eram essas coisas simples que faziam eu esquecer o cansaço e tudo o que tinha acontecido nos outros dias." },
+    { id: 9, image: "img/photo-09.jpeg", title: "TREININ", date: "", description: "Pela primeira vez treinamos juntas e, para ser sincera, conversamos mais do que treinamos. Mas passar esse tempo ao seu lado, fazendo algo que nós duas gostamos, tornou aquele momento muito especial para mim. Senti uma sensação de dever cumprido, comigo mesma, com você e com nós duas. Por mais que seja apenas a musculação, ela representa muito para a forma como nos enxergamos e para os objetivos que buscamos alcançar. Ter você ao meu lado nesse processo, me apoiando e incentivando porque sabe o quanto isso é importante para mim, fez toda a diferença. Foi um momento simples, mas muito significativo, e que guardo com muito carinho. Espero que possamos viver muitos outros momentos assim, sempre apoiando uma à outra em nossos sonhos e objetivos, sejam eles compartilhados ou individuais. Afinal, saber que tenho você torcendo por mim faz qualquer desafio parecer mais leve." },
     { id: 10, image: "img/photo-10.jpeg", title: "LEGENDS", date: "", description: "Ter você ao meu lado torna tudo mais leve e melhor. Com você, me sinto amada, acolhida e digna do amor que compartilhamos. Não precisar me esconder, não ser um segredo, poder olhar para o lado e encontrar você ali, e ter a liberdade de mostrar ao mundo que sou sua, é algo que tem um significado enorme para mim. Eu sei que tudo isso ainda é muito novo para nós e que temos muitas coisas para aprender, melhorar e amadurecer juntas. Mas, quando olho para tudo o que construímos até aqui, sinto um orgulho imenso da nossa história. Prometo continuar me esforçando para ser uma pessoa melhor para você, para mim e para nós. Você é o meu lugar seguro, a minha paz nos dias difíceis e a pessoa que faz meu coração se sentir em casa. E, de alguma forma, nunca imaginei que poderia pertencer a alguém que não fosse você. Obrigada por ter voltado para a minha vida, por me aceitar como sou e por nos dar uma nova chance. Nada do que construímos, da intensidade que vivemos e do amor que compartilhamos seria possível sem você." }
 ];
 
@@ -273,17 +273,12 @@ function updatePlayUI() {
 }
 
 function updateCountdown() {
-    const targetDate = new Date(2025, 7, 5, 0, 0, 0); // 05/08/2025
-    const now = new Date();
-    let delta = Math.abs(targetDate - now);
+    // Valores fixos solicitados
     const labelText = 'O tempo não mede o nosso amor; ele apenas registra há quanto tempo tenho a sorte de amar você.';
-
-    const days = Math.floor(delta / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((delta / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((delta / (1000 * 60)) % 60);
-    const seconds = Math.floor((delta / 1000) % 60);
-
-    const pad = (value) => String(value).padStart(2, '0');
+    const daysValue = '-254';
+    const hoursValue = '-6.096';
+    const minutesValue = '-365.760';
+    const secondsValue = '-21.945.600';
 
     const labelEl = document.getElementById('countdownLabel');
     if (labelEl) labelEl.textContent = labelText;
@@ -291,10 +286,10 @@ function updateCountdown() {
     const hoursEl = document.getElementById('countdownHours');
     const minutesEl = document.getElementById('countdownMinutes');
     const secondsEl = document.getElementById('countdownSeconds');
-    if (daysEl) daysEl.textContent = pad(days);
-    if (hoursEl) hoursEl.textContent = pad(hours);
-    if (minutesEl) minutesEl.textContent = pad(minutes);
-    if (secondsEl) secondsEl.textContent = pad(seconds);
+    if (daysEl) daysEl.textContent = daysValue;
+    if (hoursEl) hoursEl.textContent = hoursValue;
+    if (minutesEl) minutesEl.textContent = minutesValue;
+    if (secondsEl) secondsEl.textContent = secondsValue;
 }
 
 function startCountdown() {
