@@ -273,23 +273,29 @@ function updatePlayUI() {
 }
 
 function updateCountdown() {
-    // Valores fixos solicitados
-    const labelText = 'O tempo não mede o nosso amor; ele apenas registra há quanto tempo tenho a sorte de amar você.';
-    const daysValue = '-254';
-    const hoursValue = '-6.096';
-    const minutesValue = '-365.760';
-    const secondsValue = '-21.945.600';
+    // Contagem em tempo real desde a data alvo (valores positivos, formatados pt-BR)
+    const targetDate = new Date(2025, 7, 5, 0, 0, 0); // 05/08/2025
+    const now = new Date();
+    let delta = Math.abs(now - targetDate);
 
+    const totalDays = Math.floor(delta / (1000 * 60 * 60 * 24));
+    const totalHours = Math.floor(delta / (1000 * 60 * 60));
+    const totalMinutes = Math.floor(delta / (1000 * 60));
+    const totalSeconds = Math.floor(delta / 1000);
+
+    const fmt = (n) => n.toLocaleString('pt-BR');
+
+    const labelText = 'O tempo não mede o nosso amor; ele apenas registra há quanto tempo tenho a sorte de amar você.';
     const labelEl = document.getElementById('countdownLabel');
     if (labelEl) labelEl.textContent = labelText;
     const daysEl = document.getElementById('countdownDays');
     const hoursEl = document.getElementById('countdownHours');
     const minutesEl = document.getElementById('countdownMinutes');
     const secondsEl = document.getElementById('countdownSeconds');
-    if (daysEl) daysEl.textContent = daysValue;
-    if (hoursEl) hoursEl.textContent = hoursValue;
-    if (minutesEl) minutesEl.textContent = minutesValue;
-    if (secondsEl) secondsEl.textContent = secondsValue;
+    if (daysEl) daysEl.textContent = fmt(totalDays);
+    if (hoursEl) hoursEl.textContent = fmt(totalHours);
+    if (minutesEl) minutesEl.textContent = fmt(totalMinutes);
+    if (secondsEl) secondsEl.textContent = fmt(totalSeconds);
 }
 
 function startCountdown() {
