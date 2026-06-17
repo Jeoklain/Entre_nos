@@ -273,10 +273,11 @@ function updatePlayUI() {
 }
 
 function updateCountdown() {
-    // Contagem em tempo real desde a data alvo (valores positivos, formatados pt-BR)
-    const targetDate = new Date(2025, 7, 5, 0, 0, 0); // 05/08/2025
+    // Contagem em tempo real desde 05/10/2025 (valores positivos, formatados pt-BR)
+    const targetDate = new Date(2025, 9, 5, 0, 0, 0); // 05/10/2025 (mês 9 = outubro)
     const now = new Date();
-    let delta = Math.abs(now - targetDate);
+    let delta = now - targetDate;
+    if (delta < 0) delta = 0; // se a data alvo ainda não chegou, mostra zeros
 
     const totalDays = Math.floor(delta / (1000 * 60 * 60 * 24));
     const totalHours = Math.floor(delta / (1000 * 60 * 60));
